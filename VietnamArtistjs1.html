@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip Main Content</a>
+
+    <header>
+        <h1>My Favorite Artists Gallery</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="VietnamArtist.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <div class="thumbnails">
+            <img class="preview" src="stmtp2.jpg" alt="Sơn Tùng M-T" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            <img class="preview" src="24kright.jpg" alt="24k.Right rapping" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            <img class="preview" src="tlinh.jpg" alt="Tlinh music video" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            <img class="preview" src="vpop.jpg" alt="Artist" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            <img class="preview" src="stmtp.jpg" alt="Music festival" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+            <img class="preview" src="24k3.jpg" alt="24k Right" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
